@@ -1,0 +1,18 @@
+.history-transaction {
+    margin-top: 3rem;
+}
+
+.history-transaction__heading {
+    font-size: 1.7rem;
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: .5rem;
+
+    animation: opacityAnimation 2s ease-in-out;
+}
+
+.list-items {
+    list-style: none;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+

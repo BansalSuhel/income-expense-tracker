@@ -1,0 +1,53 @@
+li {
+    background-color: #feceab;
+
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,0.12);
+    padding: .7rem;
+    margin-bottom: 1rem;
+    position: relative;
+  
+}
+li.income-list {
+    border-right: 4px solid #0f4c75;
+}
+
+li.expense-list {
+    border-right: 4px solid var(--color-primary);
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    left: -2rem;
+    background-color: var(--color-primary);
+    border: none;
+    width: 2rem;
+    height: 2.5rem;
+    cursor: pointer;
+    color: var(--color-grey-light-2);
+}
+
+.btn:hover{
+    background-color: var(--color-primary-dark);
+}
+
+.btn:active {
+    outline: none;
+}
+
+.list-items__flex {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+
+   
+}
+
+.span-text {
+  font-size: 1.6rem;
+  
+}
+
+.span-amount {
+    font-size: 1.6rem;
+}

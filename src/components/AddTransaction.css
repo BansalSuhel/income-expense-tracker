@@ -1,0 +1,68 @@
+
+.addTransaction__heading {
+    font-size: 1.7rem;
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: .5rem;
+   
+    animation: opacityAnimation 2s ease-in-out;
+}
+
+.form {
+    margin-top: 2rem;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control__label {
+    font-size: 1.6rem;
+    margin-bottom: .4rem;
+
+
+    display: flex;
+    flex-direction: column;
+
+    animation: leftToRight 1s ease-in-out;
+}
+
+.form-control__input {
+    margin-bottom: .8rem;
+    padding: .8rem;
+
+    animation: rightToLeft 1s ease-in-out;
+}
+
+.form-control__label span {
+    font-size: 1.3rem;
+    margin-top: -.8rem;
+}
+
+.form-btn {
+    padding: 1rem 3rem;
+    width: 100%;
+    font-size: 1.7rem;
+    margin-top: .3rem;
+    background-image: linear-gradient(to right,
+            var(--color-primary-light),
+            var(--color-primary-dark));
+    border: none;
+    color: var(--color-grey-light-4);
+    outline: none;
+    
+    animation: bottomToTop 1s ease-in-out;
+
+}
+
+.form-btn:active {
+    outline: none;
+}
+
+.form-btn:hover {
+    background-image: linear-gradient(to left,
+            var(--color-primary-light),
+            var(--color-primary-dark));
+}
+
+

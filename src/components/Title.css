@@ -1,0 +1,11 @@
+.title {
+    /* width: 80rem; */
+}
+
+.title__heading {
+    color: var(--color-primary);
+    font-size: 2.5rem;  
+
+    animation: topToBottom 1s ease-in-out;
+}
+

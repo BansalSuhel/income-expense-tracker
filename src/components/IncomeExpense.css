@@ -1,0 +1,41 @@
+.income-expense {
+    width: 30rem;
+    background-color: var(--color-grey-light-4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+
+    box-shadow: var(--shadow-light);
+    text-transform: uppercase;
+
+    animation: leftToRight 1s ease-in-out;
+}
+
+.income-expense__income {
+   display: flex;
+   flex-direction: column;
+
+   font-size: 1.7rem;
+   padding-right: 3.7rem;
+   border-right: 1px solid var(--color-primary-dark);
+  
+}
+
+.income-expense__expense {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+}
+
+.income-span {
+    text-align: center;
+    color: #0f4c75;
+}
+
+.expense-span {
+    text-align: center;
+    color: #d54062;
+}
+
+
